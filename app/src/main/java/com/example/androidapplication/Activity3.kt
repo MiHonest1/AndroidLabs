@@ -3,6 +3,7 @@ package com.example.androidapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.util.SparseBooleanArray
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -67,6 +68,30 @@ class Activity3 : AppCompatActivity() {
 
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("Логи приложения", "Сообщение отладки для метода onDestroy()")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("Логи приложения", "Сообщение отладки для метода onPause()")
+    }
+
+    override fun onResume() { //вызывается, когда отрисовывается приложение
+        Log.i("Логи приложения", "Вызван метод onResume()")
+        super.onResume()
+    }
+
+    override fun onStart() {
+        Log.w("Логи приложения", "Сообщение предупреждения для метода onStart()")
+        super.onStart()
+    }
+
+    override fun onStop() {
+        Log.v("Логи приложения", "Сообщение подробностей для метода onStop()")
+        super.onStop()
+    }
 
 
 }

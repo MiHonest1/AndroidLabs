@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
         val editTextTextPassword = findViewById<EditText>(R.id.editTextTextPassword)
         val editTextTextEmailAddress = findViewById<EditText>(R.id.editTextTextEmailAddress)
 
+
         buttonLogin.setOnClickListener {
             val intent2 = Intent(this@MainActivity, Activity3::class.java)
             startActivity(intent2)
-
         }
 
         buttonRegister.setOnClickListener {
