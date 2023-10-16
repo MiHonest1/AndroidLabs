@@ -10,22 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidApplication">
         <activity
-            android:name=".Home1"
-            android:exported="false" />
-        <activity
-            android:name=".Activity5"
-            android:exported="false" />
-        <activity
-            android:name=".Activity4"
-            android:exported="false" />
-        <activity
-            android:name=".Activity3"
-            android:exported="false" />
-        <activity
             android:name=".OsnClass"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
