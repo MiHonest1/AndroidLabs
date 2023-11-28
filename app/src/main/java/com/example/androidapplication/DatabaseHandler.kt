@@ -97,7 +97,10 @@ class DatabaseHandler(val context: Context, val factory: SQLiteDatabase.CursorFa
         builder.setNegativeButton("Отмена") { dialog, which -> dialog.cancel() }
 
         builder.show()
+
     }
+
+
 
     fun updateUser(user: User) {
         val db = this.writableDatabase

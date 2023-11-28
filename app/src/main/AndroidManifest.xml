@@ -26,10 +26,10 @@
             android:name=".OsnClass"
             android:exported="false" />
         <activity
-            android:name=".Authorization"
+            android:name=".HelloActivity1"
             android:exported="false" />
         <activity
-            android:name=".HelloActivity1"
+            android:name=".Authorization"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

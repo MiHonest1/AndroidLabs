@@ -4,32 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D0E8CD"
     tools:context=".Activity5">
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="203dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="122dp"
-        android:layout_marginBottom="447dp"
+        android:layout_height="70dp"
         android:textAlignment="center"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn5"
-        android:layout_width="240dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="22dp"
-        android:text="Назад"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#3C8734"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
